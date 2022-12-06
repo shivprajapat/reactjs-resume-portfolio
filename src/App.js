@@ -1,10 +1,12 @@
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import { routerData } from "./components/routerData";
+import { Navbar } from "./components";
 
 function App() {
   return (
     <div className="App">
+        <Navbar/>
       <Routes>
         {
           routerData&&routerData.map((item,index)=>{
