@@ -32,13 +32,16 @@ a {
 html {
   font-size: 62.5%;
   height: 100%;
+  overflow-x: hidden;
 }
 body {
   background-color: var(--selected-theme-background-color);
   height: 100%;
+  font-family: var(--font-base);
 }
 #root {
   height: 100%;
 }
-
-// video nmuber 06
+.App{
+  height: 100%;
+}

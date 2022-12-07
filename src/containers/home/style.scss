@@ -1,0 +1,97 @@
+.home{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: var(--selected-theme-main-color);
+            margin: 0;
+            font-size: 8rem;
+            font-weight: 600;
+            line-height: 10rem;
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typeEffect 0.5s  steps(30,end);
+            text-align: center;
+        }
+        &_contact{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            margin-top: 10px;
+            &_button_wrapper{
+                display: flex;
+                gap: 10px;
+                button ,a{
+                    cursor: pointer;
+                    background-color: transparent;
+                    font-size: 2rem;
+                    color: var(--selected-theme-main-color);
+                    border: 1.5px solid var(--selected-theme-main-color);
+                    border-radius: 4px;
+                    font-weight: 400;
+                    transition: 0.5s;
+                    width: 200px;
+                    height: 45px;
+                    text-align: center;
+                    line-height: 4.5rem;
+                    &:hover{
+                        color: #000;
+                        background-color: var(--selected-theme-main-color);
+                    }
+                }
+            }
+            &_social_wrapper{
+                display: flex;
+                gap: 10px;
+                margin-top: 15px;
+                li{
+                    display: inline-block;
+                    color: var(--selected-theme-main-color);
+                    cursor: pointer;
+                    transition: 0.5s;
+                    svg{
+                        width: 35px;
+                        height: 35px;
+                    }
+                    &:hover{
+                        color: #fff;
+                         }
+                }
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width:991px){
+            h1{
+              font-size: 6rem;
+              line-height: 8rem;
+            }
+          }
+          @media screen and (min-width: 551px) and (max-width:768px){
+            h1{
+              font-size: 4rem;
+              line-height: 6rem;
+            }
+          }
+          @media screen and (max-width: 576px) {
+            h1{
+                font-size: 3rem;
+                line-height: 5rem;
+              }
+          }
+    }
+}
+
+@keyframes typeEffect {
+    from{width: 0;}
+    to{
+        width: 100%;
+    }
+}

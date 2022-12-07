@@ -6,13 +6,13 @@ import { Navbar } from "./components";
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-      <Routes>
+      <Navbar />
+          <Routes>
         {
-          routerData&&routerData.map((item,index)=>{
-            const {path,pageName} = item;
-            return(
-              <Route key={index} path={path} element={pageName} /> 
+          routerData && routerData.map((item, index) => {
+            const { path, pageName } = item;
+            return (
+              <Route key={index} path={path} element={pageName} />
             )
           })
         }
