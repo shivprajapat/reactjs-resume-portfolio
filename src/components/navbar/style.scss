@@ -73,7 +73,7 @@
             transform: translateX(100%);
             opacity: 1;
             transition: all 0.5s ease;
-            box-shadow: 0 0 10px #262626;
+            background-color: var(--selected-theme-background-color);
             right: 0;
             height: 100vh;
           &.active{
