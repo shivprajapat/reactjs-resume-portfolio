@@ -8,7 +8,6 @@ function App() {
     <main className="App">
       <Navbar />
       <Theme />
-
       <div className="App_main_wrapper">
         <Routes>
           {routerData &&
