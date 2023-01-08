@@ -95,19 +95,15 @@ function About() {
             <div className="about__content__servicesWrapper__innerContent">
               <div>
                 <DiApple color="var(--selected-theme-main-color)" size={60} />
-                {/* <p className="service-text">Web Design</p> */}
               </div>
               <div>
                 <FaDev color="var(--selected-theme-main-color)" size={60} />
-                {/* <p className="service-text">Web Development</p> */}
               </div>
               <div>
                 <FaDatabase color="var(--selected-theme-main-color)" size={60} />
-                {/* <p className="service-text">Databases</p> */}
               </div>
               <div>
                 <DiAndroid color="var(--selected-theme-main-color)" size={60} />
-                {/* <p className="service-text">Android Developement</p> */}
               </div>
             </div>
           </Animate>

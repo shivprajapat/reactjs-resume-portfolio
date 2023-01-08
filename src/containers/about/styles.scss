@@ -13,14 +13,14 @@
           margin-bottom: 10px;
           font-size: 2.5rem;
           font-weight: 700;
-          font-family: "Playfair Display", serif;
+         font-family: var(--font-base);
           color: var(--selected-theme-main-color);
         }
         h3.personalContent{
           padding-top: 20px;
         }
         p {
-          font-family: "Playfair Display", serif;
+         font-family: var(--font-base);
           color: var(--selected-theme-sub-text-color);
           font-size: 1.8rem;
           line-height: 1.65;
@@ -33,7 +33,7 @@
           margin-bottom: 15px;
           span.title,
           span.value {
-            font-family: "Playfair Display", serif;
+           font-family: var(--font-base);
             font-size: 18px;
             font-weight: 700;
             letter-spacing: 0.5px;
@@ -62,7 +62,7 @@
         h3 {
           font-size: 2.5rem;
           font-weight: 700;
-          font-family: "Playfair Display", serif;
+         font-family: var(--font-base);
           color: var(--selected-theme-sub-text-color);
         }
         &__innerContent {
@@ -100,7 +100,7 @@
           div > p{
               font-size: 1.5rem;
               font-weight: 700;
-              font-family: "Playfair Display", serif;
+             font-family: var(--font-base);
               color: var(--selected-theme-main-color);   
           }
         }
